@@ -79,7 +79,7 @@ client.on('ready',  () => {
    }
    });
 
-const developers = ["539541145835929623"]
+const developers = ["596778797551058964"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
